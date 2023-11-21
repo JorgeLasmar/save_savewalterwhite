@@ -13,24 +13,54 @@ html, body{
 }
 
 header{
+    width: 100%;
     padding-top: 25px;
     padding-bottom: 25px;
     text-align: center;
+
 }
 
 header h1{
-    font-size: 12vh;
+    font-size: 10vh;
     color: white;
     text-shadow: 3px 3px 3px black;
 }
 
 header h2{
+    font-size: 4vh;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: yellow;
     text-shadow: 2px 2px 3px black;
 }
 
+main{
+    width: 100%;
+    margin: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+ul#one_img{
+    display: block;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+ul#four_img{
+    display: block;
+    text-align: center;
+    columns: 2;
+
+}
+
 img{
     width: 200px;
     height: 200px;
+}
+
+img#img_big{
+    min-width: 350px;
+    min-height: 350px;
 }
