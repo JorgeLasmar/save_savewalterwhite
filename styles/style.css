@@ -21,21 +21,25 @@ header{
 }
 
 header h1{
-    font-size: 10vh;
+    font-size: 12vh;
     color: white;
     text-shadow: 3px 3px 3px black;
 }
 
 header h2{
-    font-size: 4vh;
+    font-size: 4.5vh;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: yellow;
     text-shadow: 2px 2px 3px black;
 }
 
 main{
-    width: 100%;
+    max-width: 100vh;
     margin: auto;
+}
+
+main section{
+    min-width: 100%;
 }
 
 ul{
@@ -48,6 +52,12 @@ ul#one_img{
     padding-bottom: 50px;
 }
 
+ul#two_img{
+    display: block;
+    text-align: center;
+    columns: 2;
+}
+
 ul#four_img{
     display: block;
     text-align: center;
@@ -55,9 +65,36 @@ ul#four_img{
 
 }
 
+p{
+    font-size: 2.8vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: yellow;
+    text-align: left;
+    text-shadow: 2px 2px 3px black;
+    padding: 20px;
+    
+}
+
+p.back{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.74);
+    border-radius: 5px;
+}
+
+p.white{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.739);
+    border-radius: 5px;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+
 img{
     width: 200px;
     height: 200px;
+    border-radius: 5px;
 }
 
 img#img_big{
