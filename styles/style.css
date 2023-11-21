@@ -1,0 +1,36 @@
+@charset "UFT-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.2em;
+}
+
+html, body{
+    height: 100vh;
+    background: black url('../imagens/background.jpg') center top no-repeat fixed;
+    background-size: cover;
+}
+
+header{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+header h1{
+    font-size: 12vh;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+}
+
+header h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: yellow;
+    text-shadow: 2px 2px 3px black;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
