@@ -42,6 +42,10 @@ main section{
     min-width: 50%;
 }
 
+section#contador{
+    background-color: black;
+}
+
 ul{
     list-style: none;
 }
@@ -93,15 +97,30 @@ p.white{
 
 p.center{
     display: block;
-    width: 50%;
+    width: 80%;
+    font-size: 4.6vh;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: rgba(0, 0, 0, 0.739);
-    width: 50%;
     border-radius: 5px;
     color: yellow;
     text-shadow: 2px 2px 3px black;
+    text-align: center;
+}
+
+p#white{
+    color: white;
+    margin-bottom: 0px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+p#yellow{
+    color: yellow;
+    margin-top: 5px;
+    padding-top: 0px;
     text-align: center;
 }
 
@@ -111,7 +130,35 @@ img{
     border-radius: 5px;
 }
 
+img.banner{
+    width: 100%;
+}
+
+im.botton{
+    width: 50%;
+}
+
 img#img_big{
     min-width: 350px;
     min-height: 350px;
+}
+
+img#banner{
+    display: block;
+    max-width: 980px;
+    max-height: 125px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 0px;
+}
+
+img#botton{
+    display: block;
+    min-width: 400px;
+    min-height: 100px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 20px;
 }
