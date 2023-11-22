@@ -84,11 +84,25 @@ p.back{
 
 p.white{
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     background-color: rgba(0, 0, 0, 0.739);
     border-radius: 5px;
     color: white;
     text-shadow: 2px 2px 3px black;
+}
+
+p.center{
+    display: block;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.739);
+    width: 50%;
+    border-radius: 5px;
+    color: yellow;
+    text-shadow: 2px 2px 3px black;
+    text-align: center;
 }
 
 img{
